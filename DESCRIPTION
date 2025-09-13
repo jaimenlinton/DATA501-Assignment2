@@ -1,0 +1,15 @@
+Package: logMoments
+Type: Package
+Title: Calculate Second and Third Log-Moments 
+Version: 0.1.0
+Author: Jaime Linton
+Maintainer: Jaime Linton <jaimenlinton@gmail.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    Rcpp
+LinkingTo: Rcpp
+RoxygenNote: 7.3.2
