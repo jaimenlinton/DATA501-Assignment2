@@ -1,3 +1,24 @@
-Installing and Using Package
+logMoments Package 
+=======================
 
-1. Clone this repository: 
+1)	Install required packages:
+install.packages(“Rcpp”)
+install.packages(“devtools”)
+install.packages(“testthat”) 
+
+2)	Clone the GitHub repository: 
+git clone https://github.com/jaimenlinton/DATA501-Assignment2
+
+3)	Open project in RStudio 
+
+4)	Install package locally:
+library(devtools)
+devtools::document()
+devtools::load_all()
+
+5)	Test package:
+devtools::test()
+Tests will stop if there is an error.
+
+
+
